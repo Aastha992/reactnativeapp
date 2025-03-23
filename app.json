@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "MyConstructionApp",
+    "slug": "myconstructionapp",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.myconstruction.myapp",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "We need access to your location to fetch weather data for your area."
+      }
+    },
+    "android": {
+      "package": "com.myconstruction.myapp",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    }
+  }}
